@@ -7,31 +7,33 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class login extends AppCompatActivity {
+public class loginalumni extends AppCompatActivity {
 
-    protected TextView alumni;
+    protected TextView mhs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_loginalumni);
+
         initial();
         klik();
+
     }
 
     public void initial(){
 
-        alumni = (TextView) findViewById(R.id.alumni);
+        mhs = (TextView) findViewById(R.id.mhs);
 
     }
 
-    public void klik () {
+    public void klik() {
 
-        alumni.setOnClickListener(new View.OnClickListener() {
+        mhs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(), loginalumni.class);
+                Intent intent = new Intent(getApplicationContext(), login.class);
                 startActivity(intent);
 
             }

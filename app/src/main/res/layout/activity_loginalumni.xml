@@ -27,50 +27,49 @@
             android:text="@string/lg_text1"
             android:textStyle="bold"
             android:textColor="@color/black"/>
-        
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="130dp">
 
             <TextView
+                android:id="@+id/mhs"
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Mahasiswa"
-                android:background="@drawable/mhs"
-                android:textColor="@color/white"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:id="@+id/alumni"
-                android:layout_width="match_parent"
-                android:gravity="center"
-                android:text="Alumni"
-                android:layout_height="wrap_content"
-                android:background="@drawable/alum"
+                android:background="@drawable/mhsd"
                 android:textColor="@color/disable"/>
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:text="Alumni"
+                android:layout_height="wrap_content"
+                android:background="@drawable/alume"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
     </LinearLayout>
-    
+
     <LinearLayout
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
         android:layout_width="350dp"
         android:layout_height="46dp">
-        
+
         <EditText
             android:id="@+id/nim"
             android:layout_width="match_parent"
-            android:hint="@string/nim"
+            android:hint="@string/email"
             android:background="@drawable/field"
             android:padding="10dp"
             android:layout_height="wrap_content"/>
@@ -87,7 +86,7 @@
         <EditText
             android:id="@+id/pin"
             android:layout_width="match_parent"
-            android:hint="@string/pin"
+            android:hint="@string/password"
             android:padding="10dp"
             android:background="@drawable/field"
             android:layout_height="wrap_content"/>
@@ -100,7 +99,7 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/mhs_masuk"
+            android:id="@+id/alum_masuk"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -112,21 +111,30 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:text="Lupa Password ?"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
         <TextView
-            android:layout_gravity="center"
-            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="14sp"
             android:text="Belum punya akun SILUG ?"/>
 
         <TextView
-            android:layout_gravity="center"
-            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="14sp"
