@@ -22,6 +22,7 @@
         android:layout_height="wrap_content">
 
         <TextView
+            android:paddingLeft="20dp"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/lg_text1"
@@ -31,7 +32,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="130dp">
+            android:orientation="horizontal"
+            android:layout_marginLeft="110dp">
 
             <TextView
                 android:gravity="center"
@@ -40,13 +42,6 @@
                 android:text="Mahasiswa"
                 android:background="@drawable/mhs"
                 android:textColor="@color/white"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/alumni"
@@ -107,6 +102,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:background="@drawable/button"
+            android:textAllCaps="false"
             android:text="@string/masuk"/>
 
 
