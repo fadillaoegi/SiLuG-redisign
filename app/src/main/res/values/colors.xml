@@ -11,4 +11,6 @@
     <color name="bgfield">#EBECF0</color>
     <color name="hint">#596576</color>
     <color name="disable">#9F9696</color>
+    <color name="TransparentGrey">#7F000000</color>
+
 </resources>

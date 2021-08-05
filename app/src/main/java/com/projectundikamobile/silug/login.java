@@ -14,14 +14,13 @@ public class login extends AppCompatActivity {
 
     protected TextView alumni;
     protected Button mhsMasuk;
+    static String id2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
 
         setContentView(R.layout.activity_login);
         initial();
@@ -50,7 +49,8 @@ public class login extends AppCompatActivity {
         mhsMasuk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), dashboard.class);
+                Intent intent = new Intent(getApplicationContext(), navbar.class);
+                intent.putExtra(id2, "1");
                 startActivity(intent);
             }
         });

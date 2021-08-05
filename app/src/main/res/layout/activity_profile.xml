@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgdashboard">
+
+
+    <TextView
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profil"
+        android:textColor="@color/white"
+        android:textSize="60px"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginLeft="34dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lengkapi data diri kamu"
+        android:textColor="@color/white"
+        android:textSize="20px"/>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="400dp"
+        android:background="@drawable/boxds"
+        android:layout_height="170dp">
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="70dp"
+            android:layout_height="90dp"
+            android:src="@drawable/krisna"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/txt_nama_mhs"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Krisna Jufer Ptr"
+                android:textStyle="bold"
+                android:textColor="#2E2E2E"
+                android:textSize="40px"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mahasiswa"
+                android:textColor="#2E2E2E"
+                android:textSize="30px"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+62812304xxxxx"
+                android:textColor="#2E2E2E"
+                android:textSize="30px"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Juferptr__@oqe.com"
+                android:textColor="#2E2E2E"
+                android:textSize="30px"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/group"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_profile"/>
+
+
+</LinearLayout>
