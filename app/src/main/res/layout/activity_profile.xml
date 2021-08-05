@@ -83,7 +83,8 @@
             android:layout_marginTop="20dp"
             android:layout_width="15dp"
             android:layout_height="15dp"
-            android:background="@drawable/group"/>
+            android:background="@drawable/group"
+            android:id="@+id/btn_mpakun"/>
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView

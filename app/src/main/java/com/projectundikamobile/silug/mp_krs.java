@@ -20,6 +20,7 @@ public class mp_krs extends AppCompatActivity{
 
     private Button back;
     static String id_profil;
+    private long backPressedTime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,9 +37,7 @@ public class mp_krs extends AppCompatActivity{
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), navbar.class);
-                i.putExtra(id_profil, "2");
-                startActivity(i);
+                onBackPressed();
             }
         });
     }
@@ -58,6 +57,12 @@ public class mp_krs extends AppCompatActivity{
         d = new DaftarKrs("Pemograman Berbasis Mobile (P1)", "M405", "13:30 - 16:00", "Naovianto Lemantoro, S.Kom.");
         daftar_krs.add(d);
         return;
+    }
+
+
+    public void onBackPressed() {
+        super.onBackPressed();
+        backPressedTime = System.currentTimeMillis();
     }
 
 }

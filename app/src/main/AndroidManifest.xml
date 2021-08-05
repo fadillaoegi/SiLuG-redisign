@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SiLuG">
-        <activity android:name=".mp_krs"></activity>
+        <activity android:name=".mp_perpus" />
+        <activity android:name=".mp_histori" />
+        <activity android:name=".mp_krs" />
         <activity android:name=".mp_akun" />
         <activity android:name=".navbar" />
         <activity

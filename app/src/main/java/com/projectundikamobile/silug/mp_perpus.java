@@ -1,25 +1,21 @@
 package com.projectundikamobile.silug;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.Button;
 
-public class mp_akun extends AppCompatActivity {
+public class mp_perpus extends AppCompatActivity {
     private Button back;
-    static String id_profil;
     private long backPressedTime;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mp_akun);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+        setContentView(R.layout.activity_mp_perpus);
 
-        back = (Button) findViewById(R.id.btn_back_mpakun);
+        back = (Button) findViewById(R.id.btn_back_mpperpus);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,7 +24,6 @@ public class mp_akun extends AppCompatActivity {
             }
         });
     }
-
 
     public void onBackPressed() {
         super.onBackPressed();

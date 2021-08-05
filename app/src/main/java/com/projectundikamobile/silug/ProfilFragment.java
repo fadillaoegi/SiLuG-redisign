@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -18,6 +20,8 @@ public class ProfilFragment extends Fragment implements MenuProfileAdapter.Adapt
     private RecyclerView rv_menu;
     private ArrayList<DaftarProfile> daftar_profile = new ArrayList<>();
     private MenuProfileAdapter adapter;
+    private long backPressedTime;
+    private Button btn_mpakun;
     public ProfilFragment(){
 
     }
@@ -28,11 +32,22 @@ public class ProfilFragment extends Fragment implements MenuProfileAdapter.Adapt
 
 
         rv_menu = view.findViewById(R.id.rv_profile);
+        btn_mpakun = view.findViewById(R.id.btn_mpakun);
 
         DataDaftarProfile d = new DataDaftarProfile();
         d.setData();
         daftar_profile= d.daftar_profile();
         setRecyclerView(daftar_profile);
+
+
+        btn_mpakun.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity().getApplicationContext(), mp_akun.class);
+                startActivity(i);
+            }
+        });
+
         return view;
     }
 
@@ -53,13 +68,23 @@ public class ProfilFragment extends Fragment implements MenuProfileAdapter.Adapt
         }else if(id == 2){
             Intent i = new Intent(getActivity().getApplicationContext(), mp_krs.class);
             startActivity(i);
+        }else if(id == 3){
+            Intent i = new Intent(getActivity().getApplicationContext(), mp_histori.class);
+            startActivity(i);
+        }else if(id == 4){
+            Intent i = new Intent(getActivity().getApplicationContext(), mp_perpus.class);
+            startActivity(i);
+        }else if(id == 5){
+            if (backPressedTime + 2000 > System.currentTimeMillis()){
+                Intent i = new Intent(getActivity().getApplicationContext(), login.class);
+                startActivity(i);
+            }else {
+                Toast.makeText(getActivity().getApplicationContext(), "Tekan 2 kali untuk keluar", Toast.LENGTH_SHORT).show();
+            }
+            backPressedTime = System.currentTimeMillis();
         }
-//        else if(id == 3){
-//            Intent i = new Intent(getActivity().getApplicationContext(), Riwayat.class);
-//            startActivity(i);
-//        }else if(id == 4){
-//            Intent i = new Intent(getActivity().getApplicationContext(), Akun.class);
-//            startActivity(i);
-//        }
     }
+
+
+
 }
