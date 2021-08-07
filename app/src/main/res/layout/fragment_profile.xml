@@ -48,7 +48,7 @@
                 android:layout_marginLeft="25dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Krisna Jufer Ptr"
+                android:text="Wang Jarim"
                 android:textStyle="bold"
                 android:textColor="#2E2E2E"
                 android:textSize="40px"/>
