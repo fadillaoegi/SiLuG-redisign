@@ -1,4 +1,4 @@
-package com.projectundikamobile.silug;
+package com.projectundikamobile.silug.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.projectundikamobile.silug.DaftarProfile;
+import com.projectundikamobile.silug.R;
 
 import java.util.List;
 

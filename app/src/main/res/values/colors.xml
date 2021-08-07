@@ -12,5 +12,12 @@
     <color name="hint">#596576</color>
     <color name="disable">#9F9696</color>
     <color name="TransparentGrey">#7F000000</color>
+    <color name="colorPrimary">#fb760d</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#fb760d</color>
+    <color name="colorGrayLight">#E7E9E9</color>
+    <color name="colorGrayEvent">#F3F4F3</color>
+    <color name="colorGrayDark">#707d8c</color>
+    <color name="colorGrayDarker">#2f3640</color>
 
 </resources>

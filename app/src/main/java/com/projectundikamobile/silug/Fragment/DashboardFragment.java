@@ -1,4 +1,4 @@
-package com.projectundikamobile.silug;
+package com.projectundikamobile.silug.Fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -6,9 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
-import androidx.viewpager.widget.ViewPager;
 
-import com.google.android.material.tabs.TabLayout;
+import com.projectundikamobile.silug.R;
 
 public class DashboardFragment extends Fragment {
 
@@ -18,7 +17,7 @@ public class DashboardFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_dashboard, container, false);
+        View view = inflater.inflate(R.layout.fragment_dashboard, container, false);
         return view;
     }
 }

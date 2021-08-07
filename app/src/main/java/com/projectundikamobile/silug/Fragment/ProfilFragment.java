@@ -1,17 +1,26 @@
-package com.projectundikamobile.silug;
+package com.projectundikamobile.silug.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.projectundikamobile.silug.Adapter.MenuProfileAdapter;
+import com.projectundikamobile.silug.DaftarProfile;
+import com.projectundikamobile.silug.DataDaftarProfile;
+import com.projectundikamobile.silug.R;
+import com.projectundikamobile.silug.login;
+import com.projectundikamobile.silug.mp_akun;
+import com.projectundikamobile.silug.mp_histori;
+import com.projectundikamobile.silug.mp_krs;
+import com.projectundikamobile.silug.mp_perpus;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +37,7 @@ public class ProfilFragment extends Fragment implements MenuProfileAdapter.Adapt
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_profile, container, false);
+        View view = inflater.inflate(R.layout.fragment_profile, container, false);
 
 
         rv_menu = view.findViewById(R.id.rv_profile);
