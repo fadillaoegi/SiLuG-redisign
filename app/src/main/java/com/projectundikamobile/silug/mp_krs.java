@@ -4,14 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
+import com.projectundikamobile.silug.Adapter.MpKrsAdapter;
+
 import java.util.ArrayList;
-import java.util.List;
 
 public class mp_krs extends AppCompatActivity{
     private RecyclerView rv_krs;
@@ -42,7 +42,7 @@ public class mp_krs extends AppCompatActivity{
         });
     }
 
-    private void setRecyclerView(List<DaftarKrs> list) {
+    private void setRecyclerView(ArrayList<DaftarKrs> list) {
 
         adapter = new MpKrsAdapter(list);
         RecyclerView.LayoutManager layoutManager = new GridLayoutManager(this,1);

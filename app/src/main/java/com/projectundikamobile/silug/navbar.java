@@ -4,13 +4,15 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.projectundikamobile.silug.Fragment.DashboardFragment;
+import com.projectundikamobile.silug.Fragment.JadwalFragment;
+import com.projectundikamobile.silug.Fragment.ProfilFragment;
 
 public class navbar extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
     BottomNavigationView bottomNavigationView;
@@ -34,22 +36,6 @@ public class navbar extends AppCompatActivity implements BottomNavigationView.On
             fragment = getSupportFragmentManager().getFragment(savedInstanceState, "myFragmentName");
             loadFragment(fragment);
         }
-
-//        Intent terima = getIntent();
-//        id = terima.getStringExtra(mp_akun.id_profil);
-//        id = terima.getStringExtra(mp_krs.id_profil);
-//        id = terima.getStringExtra(login.id2);
-//
-//        test = Integer.valueOf(id);
-//
-//        if(test == 1){
-//            loadFragment(new DashboardFragment());
-//        }else if(test == 2){
-//            fragment = null;
-//            loadFragment(new ProfilFragment());
-//        }else {
-//            loadFragment(new DashboardFragment());
-//        }
 
 
         loadFragment(new DashboardFragment());
@@ -77,7 +63,7 @@ public class navbar extends AppCompatActivity implements BottomNavigationView.On
                 fragment = new ProfilFragment();
                 break;
             case R.id.menu_jadwal:
-                fragment = new ProfilFragment();
+                fragment = new JadwalFragment();
                 break;
         }
 
