@@ -41,12 +41,13 @@
             android:textColor="@color/colorGrayDark"
             android:textSize="14sp"/>
     </LinearLayout>
+
     <androidx.recyclerview.widget.RecyclerView
 
-        android:layout_marginTop="60dp"
         android:id="@+id/rvJadwalharian"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="48dp"/>w
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="48dp" />w
 
 </FrameLayout>

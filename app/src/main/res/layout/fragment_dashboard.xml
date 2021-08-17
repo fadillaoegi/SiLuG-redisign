@@ -42,13 +42,14 @@
             android:text="Pemrograman Mobile (Q1)"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:paddingTop="10dp"
-            android:paddingLeft="20dp"/>
+            android:paddingTop="25dp"
+            android:paddingLeft="30dp"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
 
             <LinearLayout
                 android:layout_marginTop="10dp"
@@ -69,7 +70,7 @@
                     android:textColor="#4D5050"/>
 
                 <LinearLayout
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="60dp"
                     android:orientation="horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
@@ -109,7 +110,7 @@
 
                 <LinearLayout
 
-                    android:layout_marginLeft="110dp"
+                    android:layout_marginLeft="150dp"
                     android:orientation="horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
