@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".sskm_second">
+
+<!--  Back Tombol  -->
+
+
+<!--  EndBackTombol  -->
+
+<!--  Container  -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--    Header    -->
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:background="#F9FBFF"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/backsskm"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="69dp"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/nunito_black"
+                android:gravity="center"
+                android:text="SSKM"
+                android:textColor="#2E2E2E"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <!--    EndHeader    -->
+
+        <!--    Jumlah Kekurangan SSkm    -->
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/sskm_field">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/nunito_regular"
+                android:gravity="center"
+                android:text="kamu Kekurangan SSKM"
+                android:textColor="@color/font" />
+
+            <TextView
+                android:id="@+id/sskmpoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="140dp"
+                android:fontFamily="@font/nunito_black"
+                android:gravity="center"
+                android:text="31"
+                android:textColor="@color/font" />
+
+        </LinearLayout>
+
+        <!--    End Jumlah Kekuranagan SSkm    -->
+
+        <!--    CardMenu SSkm    -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!--    CardSection 1        -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sskmcard1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/il1"
+                    app:cardCornerRadius="30dp">
+
+                    <LinearLayout
+                        android:layout_width="165dp"
+                        android:layout_height="191dp"
+                        android:layout_gravity="center"
+                        android:background="@color/bg_card_sskm1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="98dp"
+                            android:layout_height="98dp"
+                            android:src="@drawable/il1" />
+
+                        <LinearLayout
+                            android:layout_width="165dp"
+                            android:layout_height="93dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/shape_setengah"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Achievement Dan \nNetlife"
+                                android:textColor="@color/font"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp">
+
+                                <TextView
+                                    android:id="@+id/pointsskm2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="22.7" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:text=" point" />
+
+                                <ImageView
+                                    android:layout_width="13dp"
+                                    android:layout_height="13dp"
+                                    android:layout_marginLeft="45dp"
+                                    android:src="@drawable/rightsskm" />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sskmcard2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/il1"
+                    app:cardCornerRadius="30dp">
+
+                    <LinearLayout
+                        android:layout_width="165dp"
+                        android:layout_height="191dp"
+                        android:layout_gravity="center"
+                        android:background="@color/bg_card_sskm2"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="98dp"
+                            android:layout_height="98dp"
+                            android:src="@drawable/il2" />
+
+                        <LinearLayout
+                            android:layout_width="165dp"
+                            android:layout_height="93dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/shape_setengah"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="-25dp"
+                                android:text="LeaderShip"
+                                android:textColor="@color/font"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp">
+
+                                <TextView
+                                    android:id="@+id/pointsskm3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="15.5" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:text=" point" />
+
+                                <ImageView
+                                    android:layout_width="13dp"
+                                    android:layout_height="13dp"
+                                    android:layout_marginLeft="45dp"
+                                    android:src="@drawable/rightsskm" />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <!--    EndCardSection 1        -->
+
+            <!--    CardSection 2        -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sskmcard3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/il1"
+                    app:cardCornerRadius="30dp">
+
+                    <LinearLayout
+                        android:layout_width="165dp"
+                        android:layout_height="191dp"
+                        android:layout_gravity="center"
+                        android:background="@color/bg_card_sskm3"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="98dp"
+                            android:layout_height="98dp"
+                            android:src="@drawable/il3" />
+
+                        <LinearLayout
+                            android:layout_width="165dp"
+                            android:layout_height="93dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/shape_setengah"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="-20dp"
+                                android:text="Management"
+                                android:textColor="@color/font"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp">
+
+                                <TextView
+                                    android:id="@+id/pointsskm4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="60" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:text=" point" />
+
+                                <ImageView
+                                    android:layout_width="13dp"
+                                    android:layout_height="13dp"
+                                    android:layout_marginLeft="45dp"
+                                    android:src="@drawable/rightsskm" />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sskmcard4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/il1"
+                    app:cardCornerRadius="30dp">
+
+                    <LinearLayout
+                        android:layout_width="165dp"
+                        android:layout_height="191dp"
+                        android:layout_gravity="center"
+                        android:background="@color/bg_card_sskm4"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="98dp"
+                            android:layout_height="98dp"
+                            android:src="@drawable/il4" />
+
+                        <LinearLayout
+                            android:layout_width="165dp"
+                            android:layout_height="93dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/shape_setengah"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="-10dp"
+                                android:text="Intra dan Enter \nPreneurship"
+                                android:textColor="@color/font"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp">
+
+                                <TextView
+                                    android:id="@+id/pointsskm5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="10.5" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:text=" point" />
+
+                                <ImageView
+                                    android:layout_width="13dp"
+                                    android:layout_height="13dp"
+                                    android:layout_marginLeft="45dp"
+                                    android:src="@drawable/rightsskm" />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <!--    EndCardSection 2        -->
+
+
+        </LinearLayout>
+
+        <!--    EndCard Menu Sskm    -->
+
+
+    </LinearLayout>
+
+    <!--  EndContainer  -->
+
+</LinearLayout>

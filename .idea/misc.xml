@@ -3,28 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/drawable/carddash.xml" value="0.28615384615384615" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/drawable/ic_notif_black.xml" value="0.2212962962962963" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/drawable/myrect.xml" value="0.2212962962962963" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/activity_dashboard.xml" value="0.20652173913043478" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/activity_login.xml" value="0.2" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/activity_loginalumni.xml" value="0.20652173913043478" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/activity_main.xml" value="0.20652173913043478" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/activity_mp_histori.xml" value="0.176" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/activity_mp_krs.xml" value="0.18432971014492755" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/activity_mp_perpus.xml" value="0.20108695652173914" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/activity_navbar.xml" value="0.20108695652173914" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/activity_profile.xml" value="0.20108695652173914" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/fragment_dashboard.xml" value="0.264" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/fragment_harian.xml" value="0.264" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/fragment_jadwal.xml" value="0.1721014492753623" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/rv_menu_profile.xml" value="0.20108695652173914" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/rv_mp_krs.xml" value="0.20108695652173914" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/menu/menu_bottom_nav.xml" value="0.27447916666666666" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22962962962962963" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22962962962962963" />
-        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/mipmap-anydpi-v26/ic_launcher_silug_round.xml" value="0.22962962962962963" />
+        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/drawable/carddash.xml" value="0.290625" />
+        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/drawable/sskm_field.xml" value="0.26944444444444443" />
+        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/activity_navbar.xml" value="0.1334853090172239" />
+        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/activity_sskm.xml" value="0.24230072463768115" />
+        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/activity_sskm_second.xml" value="0.176" />
+        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/fragment_dashboard.xml" value="0.1334853090172239" />
+        <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/item_jadwal.xml" value="0.24230072463768115" />
       </map>
     </option>
   </component>

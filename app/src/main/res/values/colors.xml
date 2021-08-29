@@ -19,5 +19,10 @@
     <color name="colorGrayEvent">#F3F4F3</color>
     <color name="colorGrayDark">#707d8c</color>
     <color name="colorGrayDarker">#2f3640</color>
+    <color name="font">#170903</color>
+    <color name="bg_card_sskm1">#D0FAD7</color>
+    <color name="bg_card_sskm2">#FEE3CB</color>
+    <color name="bg_card_sskm3">#CBE5FE</color>
+    <color name="bg_card_sskm4">#FEEECD</color>
 
 </resources>

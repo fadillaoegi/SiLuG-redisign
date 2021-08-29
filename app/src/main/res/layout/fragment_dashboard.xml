@@ -19,6 +19,7 @@
         android:textStyle="bold"
         android:textSize="25dp"
         android:textColor="@color/white"/>
+
     <TextView
         android:paddingLeft="15dp"
         android:layout_width="match_parent"
