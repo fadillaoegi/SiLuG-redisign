@@ -9,10 +9,13 @@ import android.view.ViewGroup;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.projectundikamobile.silug.R;
+import com.projectundikamobile.silug.tes;
 
-public class DashboardFragment extends Fragment implements View.OnClickListener{
+public class DashboardFragment extends Fragment {
 
     protected CardView cv_sskm, cv_event, cv_ipk, cv_bop;
 
@@ -27,33 +30,6 @@ public class DashboardFragment extends Fragment implements View.OnClickListener{
 
 
         return view;
-
-    }
-
-
-
-    @Override
-    public void onClick(View view) {
-
-//        findViews();
-
-        cv_event = (CardView) view.findViewById(R.id.cvevent);
-        cv_ipk = (CardView) view.findViewById(R.id.cvipk);
-        cv_bop = (CardView)  view.findViewById(R.id.cvbop);
-        cv_sskm = (CardView) view.findViewById(R.id.cvsskm);
-
-        Intent intent;
-
-        switch (view.getId()) {
-
-            case R.id.cvsskm:
-
-//                intent = new Intent(this, sskm.class);
-//                startActivity(intent);
-
-                break;
-
-        }
 
     }
 

@@ -16,7 +16,7 @@ import com.projectundikamobile.silug.Adapter.MenuProfileAdapter;
 import com.projectundikamobile.silug.DaftarProfile;
 import com.projectundikamobile.silug.DataDaftarProfile;
 import com.projectundikamobile.silug.R;
-import com.projectundikamobile.silug.login;
+import com.projectundikamobile.silug.Activity.login;
 import com.projectundikamobile.silug.mp_akun;
 import com.projectundikamobile.silug.mp_histori;
 import com.projectundikamobile.silug.mp_krs;

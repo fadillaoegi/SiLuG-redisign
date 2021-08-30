@@ -25,6 +25,7 @@ public class mp_krs extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_mp_krs);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
 
@@ -52,10 +53,12 @@ public class mp_krs extends AppCompatActivity{
     }
 
     private void setData(){
+
         DaftarKrs d = new DaftarKrs("Pemograman Web (Q1)", "M405", "13:30 - 16:00", "I Gusti Ngurah Alit Widana Putra, S.T., M.Eng.");
         daftar_krs.add(d);
         d = new DaftarKrs("Pemograman Berbasis Mobile (P1)", "M405", "13:30 - 16:00", "Naovianto Lemantoro, S.Kom.");
         daftar_krs.add(d);
+
         return;
     }
 

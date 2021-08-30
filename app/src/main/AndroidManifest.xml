@@ -10,7 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SiLuG">
         <activity
-            android:name=".sskm_second"
+            android:name=".subBopBelumLunas"
+            android:exported="true" />
+        <activity
+            android:name=".BOP"
+            android:exported="true"
+            android:label="@string/title_activity_bop"
+            android:theme="@style/Theme.SiLuG.NoActionBar" />
+        <activity
+            android:name=".Activity.sskm_second"
             android:exported="true" />
         <activity
             android:name=".sskm"
@@ -21,10 +29,10 @@
         <activity android:name=".mp_akun" />
         <activity android:name=".navbar" />
         <activity
-            android:name=".loginalumni"
+            android:name=".Activity.loginalumni"
             android:exported="true" />
         <activity
-            android:name=".login"
+            android:name=".Activity.login"
             android:exported="true" />
         <activity
             android:name=".dashboard"

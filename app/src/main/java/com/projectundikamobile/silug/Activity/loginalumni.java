@@ -1,6 +1,7 @@
-package com.projectundikamobile.silug;
+package com.projectundikamobile.silug.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,10 +10,13 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class loginalumni extends AppCompatActivity {
+import com.projectundikamobile.silug.R;
+
+public class loginalumni extends AppCompatActivity{
 
     protected TextView mhs;
     protected Button alumMasuk;
+    protected CardView cv_sskm, cv_event, cv_ipk, cv_bop;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +28,8 @@ public class loginalumni extends AppCompatActivity {
         klik();
 
     }
+
+
 
     public void initial(){
 
@@ -55,5 +61,6 @@ public class loginalumni extends AppCompatActivity {
         });
 
     }
+
 
 }

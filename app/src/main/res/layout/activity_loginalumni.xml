@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:padding="10dp"
     android:layout_gravity="center"
-    tools:context=".login">
+    tools:context=".Activity.login">
 
     <ImageView
         android:layout_gravity="center"
