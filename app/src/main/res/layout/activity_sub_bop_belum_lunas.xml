@@ -48,6 +48,7 @@
         <!--  Card Notif  -->
 
         <androidx.cardview.widget.CardView
+            android:elevation="10dp"
             android:layout_marginTop="36dp"
             app:cardCornerRadius="10dp"
             android:layout_gravity="center"
@@ -55,6 +56,7 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
+                android:elevation="10dp"
                 android:orientation="vertical"
                 android:background="#E37765"
                 android:layout_width="328dp"
@@ -90,65 +92,145 @@
 <!--    Keterangan BOP    -->
 
         <androidx.cardview.widget.CardView
-            android:elevation="7dp"
+            android:elevation="10dp"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
             <LinearLayout
+                android:elevation="20dp"
                 android:orientation="vertical"
                 android:layout_width="327dp"
                 android:layout_height="390dp">
 
                 <TextView
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="13dp"
                     android:textColor="@color/black"
                     android:textSize="14dp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Pembayaran BOP"/>
-<!--        Jumlah BOP        -->
+
                 <LinearLayout
-                    android:orientation="horizontal"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="38dp"
+                    android:orientation="vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <TextView
-                        android:textSize="14dp"
+                    <!--        Jumlah BOP        -->
+                    <LinearLayout
+                        android:orientation="horizontal"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Jumlah BoP"/>
+                        android:layout_height="wrap_content">
 
-                    <TextView
-                        android:textSize="14dp"
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Jumlah BoP"/>
+
+                        <TextView
+                            android:layout_marginLeft="80dp"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.4.700.000,00"/>
+
+                    </LinearLayout>
+                    <!--        EndJumlah BOP        -->
+
+                    <!--        Jumlah Denda        -->
+                    <LinearLayout
+                        android:orientation="horizontal"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Rp.4.700.000,00"/>
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Denda\t\t\t\t\t"/>
+
+                        <TextView
+                            android:layout_marginLeft="80dp"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.0,00"/>
+
+                    </LinearLayout>
+                    <!--        EndJumlah Denda        -->
 
                 </LinearLayout>
-<!--        EndJumlah BOP        -->
 
-<!--        Jumlah Denda        -->
+                <ImageView
+                    android:layout_marginTop="22dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/garishori"/>
+
+<!--      Total          -->
+
                 <LinearLayout
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="38dp"
                     android:orientation="horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
                         android:textSize="14dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Denda"/>
+                        android:text="Total\t\t\t\t\t\t"/>
 
                     <TextView
+                        android:layout_marginLeft="80dp"
+                        android:textColor="@color/black"
                         android:textSize="14dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rp.0,00"/>
 
                 </LinearLayout>
-<!--        EndJumlah Denda        -->
+
+<!--      EndTotal          -->
+
+<!--      Keterangan          -->
+                <LinearLayout
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="138dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/belumlunas"/>
+
+                    <TextView
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Belum Lunas"/>
+
+                </LinearLayout>
+<!--      EndKeterangan          -->
 
             </LinearLayout>
 
