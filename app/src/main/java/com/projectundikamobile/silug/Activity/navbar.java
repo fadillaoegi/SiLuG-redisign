@@ -1,4 +1,4 @@
-package com.projectundikamobile.silug;
+package com.projectundikamobile.silug.Activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,6 +13,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.projectundikamobile.silug.Fragment.DashboardFragment;
 import com.projectundikamobile.silug.Fragment.JadwalFragment;
 import com.projectundikamobile.silug.Fragment.ProfilFragment;
+import com.projectundikamobile.silug.R;
 
 public class navbar extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
     BottomNavigationView bottomNavigationView;

@@ -39,7 +39,6 @@ public class ProfilFragment extends Fragment implements MenuProfileAdapter.Adapt
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
 
-
         rv_menu = view.findViewById(R.id.rv_profile);
         btn_mpakun = view.findViewById(R.id.btn_mpakun);
 
@@ -47,7 +46,6 @@ public class ProfilFragment extends Fragment implements MenuProfileAdapter.Adapt
         d.setData();
         daftar_profile= d.daftar_profile();
         setRecyclerView(daftar_profile);
-
 
         btn_mpakun.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,11 +59,13 @@ public class ProfilFragment extends Fragment implements MenuProfileAdapter.Adapt
     }
 
     private void setRecyclerView(List<DaftarProfile> list) {
+
         adapter = new MenuProfileAdapter(getActivity().getApplicationContext(),list,this);
         RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getActivity().getApplicationContext(),1);
         rv_menu.setLayoutManager(layoutManager);
         rv_menu.setAdapter(adapter);
         adapter.notifyDataSetChanged();
+
     }
 
     @Override
