@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SiLuG">
         <activity
+            android:name=".ipk"
+            android:exported="true" />
+        <activity
+            android:name=".BoPLunas"
+            android:exported="true" />
+        <activity
             android:name=".subBopBelumLunas"
             android:exported="true" />
         <activity

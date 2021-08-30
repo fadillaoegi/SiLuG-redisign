@@ -122,7 +122,6 @@
 
             <LinearLayout
                 android:orientation="horizontal"
-                android:background="B8B8B8"
                 android:layout_width="360dp"
                 android:layout_height="50dp">
 

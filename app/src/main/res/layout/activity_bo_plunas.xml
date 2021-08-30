@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     tools:context=".subBopBelumLunas">
 
-<!--  Container  -->
+    <!--  Container  -->
 
     <LinearLayout
         android:orientation="vertical"
@@ -58,7 +58,7 @@
             <LinearLayout
                 android:elevation="10dp"
                 android:orientation="vertical"
-                android:background="#E37765"
+                android:background="#61CE9E"
                 android:layout_width="328dp"
                 android:layout_height="54dp">
 
@@ -89,7 +89,7 @@
 
         <!--  EndCard Notif  -->
 
-<!--    Keterangan BOP    -->
+        <!--    Keterangan BOP    -->
 
         <androidx.cardview.widget.CardView
             android:elevation="10dp"
@@ -141,7 +141,7 @@
                             android:textSize="14dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Rp.4.700.000,00"/>
+                            android:text="Rp.5.000.000,00"/>
 
                     </LinearLayout>
                     <!--        EndJumlah BOP        -->
@@ -179,7 +179,7 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/garishori"/>
 
-<!--      Total          -->
+                <!--      Total          -->
 
                 <LinearLayout
                     android:layout_marginLeft="22dp"
@@ -202,13 +202,16 @@
                         android:textSize="14dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Rp.4.700.000,00"/>
+                        android:text="Rp.5.000.000,00"/>
 
                 </LinearLayout>
 
-<!--      EndTotal          -->
+                <!--      EndTotal          -->
 
-<!--      Keterangan          -->
+
+
+
+                <!--      Keterangan          -->
                 <LinearLayout
                     android:layout_marginLeft="22dp"
                     android:layout_marginTop="138dp"
@@ -219,7 +222,7 @@
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:src="@drawable/belumlunas"/>
+                        android:src="@drawable/sudahlunas"/>
 
                     <TextView
                         android:layout_marginLeft="8dp"
@@ -228,19 +231,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textStyle="bold"
-                        android:text="Belum Lunas"/>
+                        android:text="Lunas"/>
 
                 </LinearLayout>
-<!--      EndKeterangan          -->
+                <!--      EndKeterangan          -->
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
-<!--    EndKeterangan BOP    -->
+        <!--    EndKeterangan BOP    -->
 
     </LinearLayout>
 
-<!--  EndContainer  -->
+    <!--  EndContainer  -->
 
 </LinearLayout>
