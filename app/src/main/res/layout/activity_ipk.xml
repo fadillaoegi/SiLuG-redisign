@@ -4,9 +4,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ipk">
+    tools:context=".Activity.ipk">
 
 <!--  Container  -->
 
@@ -39,7 +39,7 @@
                 android:layout_marginTop="30dp"
                 android:fontFamily="@font/nunito_black"
                 android:gravity="center"
-                android:text="BOP"
+                android:text="IPK"
                 android:textColor="#2E2E2E"
                 android:textSize="20dp"
                 android:textStyle="bold" />
@@ -49,30 +49,588 @@
 
 <!--   Riwayat Penilaian     -->
 
-        <LinearLayout
-            android:orientation="vertical"
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="39dp"
+            app:cardCornerRadius="10dp"
+            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-<!--    Atas        -->
-
             <LinearLayout
-                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:background="#FEEECD"
+                android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="42dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/strokeipk"/>
+                <!--    Atas        -->
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="337dp"
+                    android:layout_height="42dp">
+
+                    <ImageView
+                        android:layout_marginLeft="-4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/strokeipk"/>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:textSize="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Riwayat Penilaian Mahasiswa smt 191 tahun 2019/2020"/>
+
+
+                </LinearLayout>
+
+                <!--    EndAtas        -->
 
             </LinearLayout>
 
-<!--    EndAtas        -->
+        </androidx.cardview.widget.CardView>
 
-        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="337dp"
+                android:layout_height="72dp">
+
+<!--      IPS          -->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="3,58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:text="IPS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+<!--      End IPS          -->
+<!--      IPK          -->
+                <LinearLayout
+                    android:layout_marginLeft="84dp"
+                    android:layout_marginRight="84dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="#4ACD86"
+                        android:textStyle="bold"
+                        android:text="3,58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:text="IPK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+<!--      End IPK          -->
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+<!--      SKS          -->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="#FD2400"
+                        android:textStyle="bold"
+                        android:text="3,58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:text="SKS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+<!--      End SKS          -->
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
 
 <!--   EndRiwayat Penilaian     -->
+
+<!--   Hasil Studi     -->
+
+        <!--    Atas2        -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="19dp"
+            app:cardCornerRadius="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="#FEEECD"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="337dp"
+                android:layout_height="42dp">
+
+                <ImageView
+                    android:layout_marginLeft="-4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/strokeipk"/>
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:textSize="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Hasil studi kuliah smt 191 tahun 2019/2020"/>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <!--    EndAtas 2        -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+<!--      Horizontal 1          -->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+                </LinearLayout>
+<!--      EndHorizontal 1          -->
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+<!--   End Hasil Studi     -->
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+<!--      Horizontal 1          -->
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="337dp"
+                    android:layout_height="42dp">
+
+                    <TextView
+                        android:text="Mata Kuliah"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="94dp"
+                        android:text="Smt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="SKS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="Nilai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="Bobot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                </LinearLayout>
+
+<!--      EndHorizontal 1          -->
+
+<!--      Horizontal 2          -->
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="#EEEEEE"
+                    android:orientation="horizontal"
+                    android:layout_width="337dp"
+                    android:layout_height="42dp">
+
+                    <TextView
+                        android:layout_marginLeft="-13dp"
+                        android:layout_gravity="center"
+                        android:text="Konsep Sistem Informasi \ndan Teknologi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="Smt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="SKS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="Nilai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="Bobot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                </LinearLayout>
+
+<!--      EndHorizontal 2          -->
+
+<!--      Horizontal 3          -->
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="337dp"
+                    android:layout_height="42dp">
+
+                    <TextView
+                        android:layout_marginLeft="-13dp"
+                        android:layout_gravity="center"
+                        android:text="Konsep Sistem Informasi \ndan Teknologi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="Smt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="SKS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="Nilai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="Bobot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+
+
+                </LinearLayout>
+
+<!--      EndHorizontal 3          -->
+
+<!--      Horizontal 4          -->
+                <LinearLayout
+                    android:background="#EEEEEE"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="337dp"
+                    android:layout_height="42dp">
+
+                    <TextView
+                        android:layout_marginLeft="-13dp"
+                        android:layout_gravity="center"
+                        android:text="Konsep Sistem Informasi \ndan Teknologi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="Smt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="SKS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="Nilai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="Bobot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+
+
+                </LinearLayout>
+<!--      EndHorizontal 4          -->
+
+<!--      Horizontal 5          -->
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="337dp"
+                    android:layout_height="42dp">
+
+                    <TextView
+                        android:layout_marginLeft="-13dp"
+                        android:layout_gravity="center"
+                        android:text="Konsep Sistem Informasi \ndan Teknologi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="Smt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="SKS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="Nilai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="Bobot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+
+
+                </LinearLayout>
+<!--      EndHorizontal 5         -->
+
+<!--      Horizontal 6          -->
+                <LinearLayout
+                    android:background="#EEEEEE"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="337dp"
+                    android:layout_height="42dp">
+
+                    <TextView
+                        android:layout_marginLeft="-13dp"
+                        android:layout_gravity="center"
+                        android:text="Konsep Sistem Informasi \ndan Teknologi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="Smt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="SKS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="Nilai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="24dp"
+                        android:text="Bobot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"/>
+
+
+
+                </LinearLayout>
+<!--      EndHorizontal 6          -->
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="99dp"
+            android:background="@color/lug"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:text="IPK : 3.58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_marginRight="61dp"
+                android:layout_marginLeft="61dp"
+                android:text="Total SKS : 24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:text="Total Bobot : 71.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="10dp"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 

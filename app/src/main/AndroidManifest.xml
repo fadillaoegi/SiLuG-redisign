@@ -10,16 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SiLuG">
         <activity
-            android:name=".ipk"
+            android:name=".Activity.ipk"
             android:exported="true" />
         <activity
-            android:name=".BoPLunas"
+            android:name=".Activity.BoPLunas"
             android:exported="true" />
         <activity
-            android:name=".subBopBelumLunas"
+            android:name=".Activity.subBopBelumLunas"
             android:exported="true" />
         <activity
-            android:name=".BOP"
+            android:name=".Activity.BOP"
             android:exported="true"
             android:label="@string/title_activity_bop"
             android:theme="@style/Theme.SiLuG.NoActionBar" />

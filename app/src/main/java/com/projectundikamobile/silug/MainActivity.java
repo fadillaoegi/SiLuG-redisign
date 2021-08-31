@@ -1,4 +1,4 @@
-package com.projectundikamobile.silug.Activity;
+package com.projectundikamobile.silug;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
 
+import com.projectundikamobile.silug.Activity.login;
 import com.projectundikamobile.silug.R;
 
 public class MainActivity extends AppCompatActivity {
