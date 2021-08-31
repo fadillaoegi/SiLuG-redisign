@@ -1,4 +1,4 @@
-package com.projectundikamobile.silug.Activity;
+package com.projectundikamobile.silug;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
