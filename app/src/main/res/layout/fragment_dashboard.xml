@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/bgdashboard"
-    tools:context=".dashboard">
+    tools:context=".Fragment.DashboardFragment">
 
     <TextView
         android:paddingLeft="15dp"

@@ -13,7 +13,12 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.projectundikamobile.silug.R;
+import com.projectundikamobile.silug.mp_akun;
 import com.projectundikamobile.silug.tes;
+import com.projectundikamobile.silug.Activity.sskm_second;
+import com.projectundikamobile.silug.Activity.BOP;
+import com.projectundikamobile.silug.Activity.ipk;
+import com.projectundikamobile.silug.Event;
 
 public class DashboardFragment extends Fragment {
 
@@ -28,6 +33,42 @@ public class DashboardFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_dashboard, container, false);
 
+        cv_sskm = view.findViewById(R.id.cvsskm);
+        cv_event = view.findViewById(R.id.cvevent);
+        cv_ipk = view.findViewById(R.id.cvipk);
+        cv_bop = view.findViewById(R.id.cvbop);
+
+        cv_sskm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity().getApplicationContext(), sskm_second.class);
+                startActivity(i);
+            }
+        });
+
+        cv_event.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity().getApplicationContext(), Event.class);
+                startActivity(i);
+            }
+        });
+
+        cv_ipk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity().getApplicationContext(), ipk.class);
+                startActivity(i);
+            }
+        });
+
+        cv_bop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity().getApplicationContext(), BOP.class);
+                startActivity(i);
+            }
+        });
         return view;
 
     }

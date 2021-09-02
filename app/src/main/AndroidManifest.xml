@@ -26,22 +26,18 @@
         <activity
             android:name=".Activity.sskm_second"
             android:exported="true" />
-        <activity
-            android:name=".sskm"
-            android:exported="true" />
         <activity android:name=".mp_perpus" />
         <activity android:name=".mp_histori" />
         <activity android:name=".mp_krs" />
         <activity android:name=".mp_akun" />
         <activity android:name=".navbar" />
+        <activity android:name=".Event" />
+        <activity android:name=".DetailEvent" />
         <activity
             android:name=".Activity.loginalumni"
             android:exported="true" />
         <activity
             android:name=".Activity.login"
-            android:exported="true" />
-        <activity
-            android:name=".dashboard"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
