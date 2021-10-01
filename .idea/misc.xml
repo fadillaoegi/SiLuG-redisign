@@ -23,16 +23,33 @@
         <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/item_jadwal.xml" value="0.24230072463768115" />
         <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/rv_bop.xml" value="0.264" />
         <entry key="..\:/Android/android/Java/Project/SiLuG-Linux-users-group/app/src/main/res/layout/rv_mp_krs.xml" value="0.2" />
+        <entry key="..\:/mobile/app/src/main/res/drawable/aaaaaaaaaaaaa.xml" value="0.15371621621621623" />
+        <entry key="..\:/mobile/app/src/main/res/drawable/bg_button_new_event.xml" value="0.15371621621621623" />
+        <entry key="..\:/mobile/app/src/main/res/drawable/bg_button_rounded.xml" value="0.15371621621621623" />
         <entry key="..\:/mobile/app/src/main/res/drawable/bg_event.xml" value="0.10989583333333333" />
         <entry key="..\:/mobile/app/src/main/res/layout/activity_bo_plunas.xml" value="0.2" />
         <entry key="..\:/mobile/app/src/main/res/layout/activity_bop2.xml" value="0.2" />
         <entry key="..\:/mobile/app/src/main/res/layout/activity_detail_event.xml" value="0.2" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_event.xml" value="0.14560810810810812" />
         <entry key="..\:/mobile/app/src/main/res/layout/activity_ipk.xml" value="0.2" />
         <entry key="..\:/mobile/app/src/main/res/layout/activity_loginalumni.xml" value="0.2" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_mp_akun.xml" value="0.22" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_mp_histori.xml" value="0.18" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_mp_krs.xml" value="0.14560810810810812" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_mp_perpus.xml" value="0.14560810810810812" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_navbar.xml" value="0.2" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_new_event.xml" value="0.22" />
         <entry key="..\:/mobile/app/src/main/res/layout/activity_sskm_second.xml" value="0.2" />
         <entry key="..\:/mobile/app/src/main/res/layout/activity_sub_bop_belum_lunas.xml" value="0.2" />
         <entry key="..\:/mobile/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
         <entry key="..\:/mobile/app/src/main/res/layout/fragment_harian.xml" value="0.2" />
+        <entry key="..\:/mobile/app/src/main/res/layout/fragment_jadwal.xml" value="0.14560810810810812" />
+        <entry key="..\:/mobile/app/src/main/res/layout/fragment_mingguan.xml" value="0.14560810810810812" />
+        <entry key="..\:/mobile/app/src/main/res/layout/fragment_profile.xml" value="0.14" />
+        <entry key="..\:/mobile/app/src/main/res/layout/fragment_tes.xml" value="0.14560810810810812" />
+        <entry key="..\:/mobile/app/src/main/res/layout/fragment_uas.xml" value="0.14560810810810812" />
+        <entry key="..\:/mobile/app/src/main/res/layout/fragment_uts.xml" value="0.14560810810810812" />
+        <entry key="..\:/mobile/app/src/main/res/layout/item_jadwal.xml" value="0.14560810810810812" />
         <entry key="..\:/mobile/app/src/main/res/layout/rv_event.xml" value="0.2" />
       </map>
     </option>

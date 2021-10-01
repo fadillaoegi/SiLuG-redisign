@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.mtp.MtpConstants;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -32,6 +33,8 @@ public class mp_histori extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mp_histori);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+
 
         chart = (LineChart) findViewById(R.id.chart);
         back = (Button) findViewById(R.id.btn_back_mphistori);

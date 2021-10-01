@@ -19,6 +19,7 @@ import com.projectundikamobile.silug.Activity.sskm_second;
 import com.projectundikamobile.silug.Activity.BOP;
 import com.projectundikamobile.silug.Activity.ipk;
 import com.projectundikamobile.silug.Event;
+import com.projectundikamobile.silug.new_event;
 
 public class DashboardFragment extends Fragment {
 
@@ -49,7 +50,7 @@ public class DashboardFragment extends Fragment {
         cv_event.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getActivity().getApplicationContext(), Event.class);
+                Intent i = new Intent(getActivity().getApplicationContext(), new_event.class);
                 startActivity(i);
             }
         });

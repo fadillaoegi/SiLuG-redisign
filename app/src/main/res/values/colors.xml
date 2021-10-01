@@ -25,4 +25,8 @@
     <color name="bg_card_sskm3">#CBE5FE</color>
     <color name="bg_card_sskm4">#FEEECD</color>
 
+    //Custom color button
+    <color name="buttonDefault">#dcdcdc</color>
+    <color name="buttonClicked">#F58628</color>
+    <color name="buttonFocused">#F58628</color>
 </resources>
