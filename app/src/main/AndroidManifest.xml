@@ -32,7 +32,7 @@
         <activity android:name=".mp_perpus" />
         <activity android:name=".mp_histori" />
         <activity android:name=".mp_krs" />
-        <activity android:name=".mp_akun" />
+<!--        <activity android:name=".mp_akun" />-->
         <activity android:name=".navbar" />
         <activity android:name=".Event" />
         <activity android:name=".DetailEvent" />
