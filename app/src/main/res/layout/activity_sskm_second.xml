@@ -7,9 +7,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     tools:context=".Activity.sskm_second">
-
 <!--  Back Tombol  -->
-
 
 <!--  EndBackTombol  -->
 
